@@ -16,7 +16,22 @@
         .product-card:hover{box-shadow:0 5px 15px rgba(0,0,0,0.08);}
         .product-card img{width:100%;height:180px;object-fit:cover;border-radius:6px;margin-bottom:12px;}
         .product-card h3{font-size:16px;color:#222;margin-bottom:8px;}
-        .product-card p{font-size:14px;color:#666;}
+        .product-card p{font-size:14px;color:#666;line-height:1.4;margin-bottom:10px;}
+        
+        /* 这里是购买按钮样式 */
+        .buy-btn{
+            display:inline-block;
+            background:#2266aa;
+            color:#fff;
+            padding:8px 16px;
+            border-radius:6px;
+            text-decoration:none;
+            font-size:14px;
+            font-weight:bold;
+            margin-top:5px;
+        }
+        .buy-btn:hover{background:#1a558c;}
+
         .footer{margin-top:60px;padding-top:20px;border-top:1px solid #eee;color:#777;font-size:14px;}
     </style>
 </head>
@@ -29,38 +44,47 @@
 
         <h2>Featured Products</h2>
         <div class="product-grid">
- <!-- 产品1：替换图片链接和标题、描述 -->
-<div class="product-card">
-    <img src="https://i.postimg.cc/CMc6BGvv/1.png" alt="Cup Holder">
-    <h3>Black Paper Cup Holder</h3>
-    <p>Upgrade your home and workspace convenience with this no-drill disposable paper cup dispenser. Made of thickened, high-quality BPA-free ABS material, it is sturdy, waterproof, moisture-proof, durable and non-slip, ensuring stable placement without shaking or tipping. </p>
-</div>
-<!-- 产品2：替换图片链接和标题、描述 -->
-<div class="product-card">
-    <img src="https://i.postimg.cc/90zMmPMm/10.png" alt="Cup Holder">
-    <h3>White Paper Cup Holder</h3>
-    <p>Upgrade your home and workspace convenience with this no-drill disposable paper cup dispenser. Made of thickened, high-quality BPA-free ABS material, it is sturdy, waterproof, moisture-proof, durable and non-slip, ensuring stable placement without shaking or tipping. </p>
-</div>
-<!-- 产品3：替换图片链接和标题、描述 -->
-<div class="product-card">
-    <img src="https://i.postimg.cc/L8kHMQTq/14.png" alt="Kitchen Towel">
-    <h3>Kitchen Towel Set</h3>
-    <p>Made of 100% pure cotton with classic hollow honeycomb weave, these dishcloths are soft, comfortable and highly durable. The non-abrasive finish is scratch-free for delicate cookware, plates, pans and kitchen surfaces, safe for all daily cleaning.</p>
-</div>
-<!-- 产品4：替换图片链接和标题、描述 -->
-<div class="product-card">
-    <img src="https://i.postimg.cc/TPLv3kqT/1.png" alt="Disposable Dish Cloths">
-    <h3>Disposable Dish Cloths</h3>
-    <p>Keep your home, kitchen, and car spotless with our 30 PCS Microfiber Cleaning Cloth Roll. Each 30x30 cm sheet is easy to tear, grab, and use. Made of premium microfiber, these cloths are highly absorbent, quickly soaking up water, spills, and oil. </p>
-</div>
-<!-- 产品5：替换图片链接和标题、描述 -->
-<div class="product-card">
-    <img src="https://i.postimg.cc/kG5c7HKD/1.png" alt="2 Piece ID Card Holder">
-    <h3>2 Piece ID Card Holder</h3>
-    <p>2 PU leather badge holders, 1 detachable 48cm neck lanyard and 1 retractable badge reel with a belt clip (max extension 58cm)</p>
-</div>
+
+            <!-- 产品1 -->
+            <div class="product-card">
+                <img src="https://i.postimg.cc/CMc6BGvv/1.png" alt="Cup Holder">
+                <h3>Black Paper Cup Holder</h3>
+                <p>High quality, dustproof, space-saving cup dispenser for home & office.</p>
+                <a href="https://a13530308153-lang.github.io/" class="buy-btn">Buy Now</a>
             </div>
-            <!-- 如果需要增加更多产品，复制上面的product-card区块即可 -->
+
+            <!-- 产品2 -->
+            <div class="product-card">
+                <img src="https://i.postimg.cc/90zMmPMm/10.png" alt="Cup Holder">
+                <h3>White Paper Cup Holder</h3>
+                <p>High quality, dustproof, space-saving cup dispenser for home & office.</p>
+                <a href="https://a13530308153-lang.github.io/" class="buy-btn">Buy Now</a>
+            </div>
+
+            <!-- 产品3 -->
+            <div class="product-card">
+                <img src="https://i.postimg.cc/L8kHMQTq/14.png" alt="Kitchen Towel">
+                <h3>Kitchen Towel Set</h3>
+                <p>100% cotton, soft, absorbent, durable for daily cleaning.</p>
+                <a href="https://a13530308153-lang.github.io/" class="buy-btn">Buy Now</a>
+            </div>
+
+            <!-- 产品4 -->
+            <div class="product-card">
+                <img src="https://i.postimg.cc/TPLv3kqT/1.png" alt="Disposable Dish Cloths">
+                <h3>Disposable Dish Cloths</h3>
+                <p>Multi-purpose microfiber cleaning cloth for home & kitchen.</p>
+                <a href="https://a13530308153-lang.github.io/" class="buy-btn">Buy Now</a>
+            </div>
+
+            <!-- 产品5 -->
+            <div class="product-card">
+                <img src="https://i.postimg.cc/kG5c7HKD/1.png" alt="2 Piece ID Card Holder">
+                <h3>2 Piece ID Card Holder</h3>
+                <p>Durable PU leather card holder with lanyard & reel.</p>
+                <a href="https://a13530308153-lang.github.io/" class="buy-btn">Buy Now</a>
+            </div>
+
         </div>
 
         <h2>Main Product Categories</h2>
